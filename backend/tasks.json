@@ -1,0 +1,21 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"tasks"},
+{"type":"table","name":"boards","database":"tasks","data":
+[
+{"id":"1","name":"Tareas Personales","description":"Tareas relacionadas con la vida personal"},
+{"id":"2","name":"Proyectos de Trabajo","description":"Tareas relacionadas con proyectos de trabajo"},
+{"id":"3","name":"Metas","description":"metas o ideas de progreso en mi vida"}
+]
+}
+,{"type":"table","name":"thetask","database":"tasks","data":
+[
+{"id":"1","board_id":"1","name":"Comprar víveres","description":"Comprar leche, pan y huevos","icon":"shopping_cart","status":"Tarea por Hacer"},
+{"id":"2","board_id":"1","name":"Limpiar la casa","description":"Aspirar y desempolvar la sala de estar","icon":"cleaning_services","status":"Tarea en Progreso"},
+{"id":"3","board_id":"1","name":"Leer un libro","description":"Terminar de leer \"Cien años de soledad\"","icon":"book","status":"Tarea Completada"},
+{"id":"4","board_id":"2","name":"Completar informe del proyecto","description":"Terminar el informe anual del proyecto","icon":"description","status":"Tarea en Progreso"},
+{"id":"5","board_id":"2","name":"Enviar correo al cliente","description":"Enviar actualizaciones del proyecto al cliente","icon":"email","status":"Tarea por Hacer"},
+{"id":"6","board_id":"2","name":"Reunión de equipo","description":"Sincronización semanal con el equipo","icon":"group","status":"Tarea Completada"}
+]
+}
+]
