@@ -33,34 +33,81 @@ button {
   background-color: #F2CF66; 
   width: 100%;
   height: 50px;
- 
-
+  position: relative;
 }
 
-.light-green-button {
+/* Estilos para la imagen dentro del botón */
+.yellow-button img {
+  position: absolute;
+  right: 5px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  width: 20px; 
+  height: auto; 
+  background-color: #f79a30;
+  border-radius: 5px; 
+}
+
+.green-button {
   background-color: #A0ECB1; 
   width: 100%;
   height: 50px;
+  position: relative;
+}
+.green-button img {
+  position: absolute;
+  right: 5px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  width: 20px; 
+  height: auto; 
+  background-color: #09ce34; 
+  border-radius: 5px; 
 }
 
-.soft-red-button {
+
+.red-button {
   background-color: #F7D4D3; 
   width: 100%;
   height: 50px;
+  position: relative;
+}
+.red-button img {
+  position: absolute;
+  right: 5px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  width: 20px; 
+  height: auto; 
+  background-color: #e93832; 
+  border-radius: 5px; 
 }
 
-.light-gray-button {
+.gray-button {
   background-color: #E3E8EF; 
   width: 100%;
   height: 50px;
 }
 
-.light-orange-button {
+.orange-button {
   background-color: #F5E8D5; 
   width: 100%;
   height: 50px;
+  position: relative;
 }
 
+.orange-button img {
+  position: absolute;
+  left: 5px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  width: 20px; 
+  height: auto; 
+  border-radius: 5px; 
+  background-color: #e93832; 
+  padding: 5px; 
+  box-sizing: border-box; 
+}
 .open-modal-button {
   position: absolute;
   top: 10px;
@@ -124,3 +171,4 @@ button:hover {
 .close-button:hover {
   opacity: 0.8;
 }
+
