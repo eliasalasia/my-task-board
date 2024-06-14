@@ -159,16 +159,20 @@ button:hover {
   position: absolute;
   top: 10px;
   right: 10px;
-  background-color: #ff6961;
-  color: white;
+  background-color: #3e93ef;
+  color: white; /* Asegúrate de que el color del texto sea blanco */
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 5px 10px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 2px;
 }
 
 .close-button:hover {
   opacity: 0.8;
 }
 
+.size-6 {
+  width: 24px; 
+  height: 24px;
+}

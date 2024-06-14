@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Buttons = () => (
+const Buttons = ({openTasksModal}) => (
   <div className="container">
-    <button className="yellow-button">Task Progress
+    <button className="yellow-button" onClick={openTasksModal}>Task Progress
       <img src="public/Time.svg" alt="icon" />
     </button>
     <button className="green-button">Task Completed
